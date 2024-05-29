@@ -1,0 +1,54 @@
+.firstParagraph {
+  font-size: 1.25rem;
+  color: darkviolet;
+}
+
+body {
+  background-color: #ccc;
+}
+
+h1,
+h2,
+label,
+input {
+  color: #222f;
+}
+
+.secondParagraph {
+  font-size: 1.45rem;
+  color: chocolate;
+  padding: 0.5rem;
+}
+
+.container {
+  padding: 1rem;
+  margin: 0.25rem;
+  border: 2px;
+  border-style: solid;
+  border-color: aquamarine;
+  margin-bottom: 1rem;
+}
+
+.primeiraDiv {
+  color: #fff;
+  padding: 1rem;
+  background-color: #222;
+  text-align: center;
+}
+
+.segundaDiv {
+  padding: 1rem;
+  background-color: brown;
+  color: #fff;
+  text-align: center;
+}
+
+.containerDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  height: 240px;
+  background-color: blue;
+  justify-content: center; /*Justify content alinha os itens na horizontal da div, ou seja: Na WIDTH ------*/
+  align-items: center; /*Align-Items alinha os itens na vertical da div, ou seja: No Height*/
+}

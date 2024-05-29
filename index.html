@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -9,11 +9,31 @@
 </head>
 
 <body>
-  <div>
-    <h1>Hello World</h1>
+  <div class="container">
+    <h1 class="gettingDados">Hello World</h1>
     <h2>Primeiro código HTML da aula Web Front-End 1</h2>
-    <p>Testando a tag P para criar um parágrafo no meu site bonitão!</p>
+    <p class="firstParagraph">Testando a tag P para criar um parágrafo no meu site bonitão!</p>
   </div>
+  <div>
+    <img src="./corinthians-x-racing-uru-copa-sul-americana-alamy2x83x0m-ezgif-com-resize-1ibh0v3ebznzt.webp" alt="Jogador do Corinthians." width="700" height="400">
+  </div>
+  <section>
+    <form action="">
+      <label for="nome">Informe seu nome</label>
+      <input id="nome" type="text" name="Nome" />
+      <label style="font-weight: bold;" for="mostrarSenha"></label> <!--Label do input. ID deve ser igual ao ID do input.-->
+      <input id="mostrarSenha" type="checkbox" name="mostrarSenha" /> <!--type checkbox do html, cria um checkbox.-->
+      <button onclick="">Enviar</button>
+    </form>
+    <p class="secondParagraph">Segundo paragráfo criado após as tags de formulário</p>
+  </section>
+  <section class="containerDiv">
+    <div class="primeiraDiv">Primeira Div</div>
+    <div class="segundaDiv">Div intrusa muito maior que as outras</div>
+    <div class="segundaDiv">Segunda Div</div>
+  </section>
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
